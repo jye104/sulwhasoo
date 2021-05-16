@@ -1,0 +1,119 @@
+@charset "utf-8";
+@font-face {
+    font-family: "Mapo";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Mapo"),
+         url("../../fonts/MapoFlowerIsland/MapoFlowerIsland.otf") format("opentype"),
+         url("../../fonts/MapoFlowerIsland/MapoFlowerIsland.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Eulyoo";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../../fonts/Eulyoo/Eulyoo1945-Regular.eot");
+    src: local("Eulyoo"),
+         url("../../fonts/Eulyoo/Eulyoo1945-Regular.eot?#iefix") format("embedded-opentype"),
+         url("../../fonts/Eulyoo/Eulyoo1945-Regular.woff") format("woff"),
+         url("../../fonts/Eulyoo/Eulyoo1945-Regular.woff2") format("woff2"),
+         url("../../fonts/Eulyoo/Eulyoo1945-Regular.ttf") format("truetype"),
+         url("../../fonts/Eulyoo/Eulyoo1945-Regular.otf") format("opentype");
+}
+@font-face {
+    font-family: "Eulyoo";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../../fonts/Eulyoo/Eulyoo1945-SemiBold.eot");
+    src: local("Eulyoo"),
+         url("../../fonts/Eulyoo/Eulyoo1945-SemiBold.eot?#iefix") format("embedded-opentype"),
+         url("../../fonts/Eulyoo/Eulyoo1945-SemiBold.woff") format("woff"),
+         url("../../fonts/Eulyoo/Eulyoo1945-SemiBold.woff2") format("woff2"),
+         url("../../fonts/Eulyoo/Eulyoo1945-SemiBold.ttf") format("truetype"),
+         url("../../fonts/Eulyoo/Eulyoo1945-SemiBold.otf") format("opentype");
+}
+@font-face {
+    font-family: "Spoqa";
+    font-style: normal;
+    font-weight: 100;
+    src: url("../../fonts/SpoqaHanSansNeo_all/SpoqaHanSansNeo_OTF_subset/SpoqaHanSansNeo-Thin.eot");
+    src: local("Spoqa Han Sans Neo"),
+         url("../../fonts/SpoqaHanSansNeo_all/SpoqaHanSansNeo_OTF_subset/SpoqaHanSansNeo-Thin.eot?#iefix"),
+         url("../../fonts/SpoqaHanSansNeo_all/SpoqaHanSansNeo_OTF_subset/SpoqaHanSansNeo-Thin.woff") format("woff"),
+         url("../../fonts/SpoqaHanSansNeo_all/SpoqaHanSansNeo_OTF_subset/SpoqaHanSansNeo-Thin.woff2") format("woff2"),
+         url("../../fonts/SpoqaHanSansNeo_all/SpoqaHanSansNeo_OTF_subset/SpoqaHanSansNeo-Thin.otf") format("opentype");
+}
+@font-face {
+    font-family: "Spoqa";
+    font-style: normal;
+    font-weight: 300;
+    src: url("../../fonts/SpoqaHanSansNeo_all/SpoqaHanSansNeo_OTF_subset/SpoqaHanSansNeo-Light.eot");
+    src: local("Spoqa Han Sans Neo"),
+         url("../../fonts/SpoqaHanSansNeo_all/SpoqaHanSansNeo_OTF_subset/SpoqaHanSansNeo-Light.eot?#iefix"),
+         url("../../fonts/SpoqaHanSansNeo_all/SpoqaHanSansNeo_OTF_subset/SpoqaHanSansNeo-Light.woff") format("woff"),
+         url("../../fonts/SpoqaHanSansNeo_all/SpoqaHanSansNeo_OTF_subset/SpoqaHanSansNeo-Light.woff2") format("woff2"),
+         url("../../fonts/SpoqaHanSansNeo_all/SpoqaHanSansNeo_OTF_subset/SpoqaHanSansNeo-Light.otf") format("opentype");
+}
+@font-face {
+    font-family: "Spoqa";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../../fonts/SpoqaHanSansNeo_all/SpoqaHanSansNeo_OTF_subset/SpoqaHanSansNeo-Regular.eot");
+    src: local("Spoqa Han Sans Neo"),
+         url("../../fonts/SpoqaHanSansNeo_all/SpoqaHanSansNeo_OTF_subset/SpoqaHanSansNeo-Regular.eot?#iefix"),
+         url("../../fonts/SpoqaHanSansNeo_all/SpoqaHanSansNeo_OTF_subset/SpoqaHanSansNeo-Regular.woff") format("woff"),
+         url("../../fonts/SpoqaHanSansNeo_all/SpoqaHanSansNeo_OTF_subset/SpoqaHanSansNeo-Regular.woff2") format("woff2"),
+         url("../../fonts/SpoqaHanSansNeo_all/SpoqaHanSansNeo_OTF_subset/SpoqaHanSansNeo-Regular.otf") format("opentype");
+}
+@font-face {
+    font-family: "Spoqa";
+    font-style: normal;
+    font-weight: 500;
+    src: url("../../fonts/SpoqaHanSansNeo_all/SpoqaHanSansNeo_OTF_subset/SpoqaHanSansNeo-Medium.eot");
+    src: local("Spoqa Han Sans Neo"),
+    url("../../fonts/SpoqaHanSansNeo_all/SpoqaHanSansNeo_OTF_subset/SpoqaHanSansNeo-Medium.eot?#iefix"),
+         url("../../fonts/SpoqaHanSansNeo_all/SpoqaHanSansNeo_OTF_subset/SpoqaHanSansNeo-Medium.woff") format("woff"),
+         url("../../fonts/SpoqaHanSansNeo_all/SpoqaHanSansNeo_OTF_subset/SpoqaHanSansNeo-Medium.woff2") format("woff2"),
+         url("../../fonts/SpoqaHanSansNeo_all/SpoqaHanSansNeo_OTF_subset/SpoqaHanSansNeo-Medium.otf") format("opentype");
+}
+@font-face {
+    font-family: "Spoqa";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../../fonts/SpoqaHanSansNeo_all/SpoqaHanSansNeo_OTF_subset/SpoqaHanSansNeo-Bold.eot");
+    src:  local("Spoqa Han Sans Neo"),
+         url("../../fonts/SpoqaHanSansNeo_all/SpoqaHanSansNeo_OTF_subset/SpoqaHanSansNeo-Bold.eot?#iefix"),
+         url("../../fonts/SpoqaHanSansNeo_all/SpoqaHanSansNeo_OTF_subset/SpoqaHanSansNeo-Bold.woff") format("woff"),
+         url("../../fonts/SpoqaHanSansNeo_all/SpoqaHanSansNeo_OTF_subset/SpoqaHanSansNeo-Bold.woff2") format("woff2"),
+         url("../../fonts/SpoqaHanSansNeo_all/SpoqaHanSansNeo_OTF_subset/SpoqaHanSansNeo-Bold.otf") format("opentype");
+}
+
+/* skip navigation */
+#skip a{position: absolute;top: 0;left: -9999px;z-index: 1000;}
+#skip a:focus{left: 0; background: #000; color: #fcb95e; height: 50px; line-height: 50px; text-align: center; width: 100%; font-weight: 500; font-size: 18px;}
+
+/* tag reset */
+body, h3, h4, h5, h6, p{padding: 0; margin: 0;}
+h3, h4, h5, h6{font-size: 100%;}
+section, article{display: block;}
+
+/* common stlye */
+.underline::after{content:""; margin-left: 20px; width: 60px; height: 2px; background: #949494; display: inline-block;}
+.tit_wrap h3{font-size: 30px; padding-bottom: 10px; color: #949494; font-family: Mapo; font-style: italic;}
+.tit_wrap h4{font-size: 60px; font-family: Eulyoo;}
+
+body{font-family: Spoqa; color: #3b3b3b;}
+
+/* #story */
+ #story{position: relative; background: url("../../images/brand/section1_bg.jpg") no-repeat left top; background-size: cover; width: 100%; height: 1080px;}
+#story .section_wrap{position: absolute; top: 20%; left: 300px; color: #fcf8f1;}
+#story .section_wrap h3{font-size: 60px; font-style: italic;}
+#story .section_wrap h3::after{background: #fcf8f1; width: 8s0px;}
+#story .section_wrap p:first-of-type{padding: 16px 0 25px; font-size: 30px;}
+#story .section_wrap p:nth-of-type(2){font-size: 20px; line-height: 36px; letter-spacing: -1px;}
+ 
+/* history */
+#history{height: 1940px;}
+#historyAtc1{padding: 141px 0 33px 135px;}
+#historyAtc1 p{padding-top: 36px;}
+#historyAtc2 {float: right; display: block;}
+#historyAtc3 {float: left; display: block;}
