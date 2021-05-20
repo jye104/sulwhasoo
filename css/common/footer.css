@@ -87,10 +87,14 @@
          url("../../fonts/SpoqaHanSansNeo_all/SpoqaHanSansNeo_OTF_subset/SpoqaHanSansNeo-Bold.otf") format("opentype");
 }
 /* tag reset */
-body, ul, p{padding: 0; margin: 0;}
-a:link, a:visited, a:hover, a:visited{text-decoration: none; color: inherit;}
-ul{list-style: none;}
+body, h1, h2, h3, h4, h5, h6, p, button{padding: 0; margin: 0;}
+h1, h2, h3, h4, h5, h6{font-size: 100%;}
+ul, ol{list-style: none;}
 img{bottom: none; vertical-align: top;}
+a:link, a:visited, a:hover, a:visited{text-decoration: none; color: inherit;}
+header, section, article, footer{display: block;}
+button{border: none; background: none; font-family: inherit; font-size: inherit;}
+input{border: none; background: none; font-family: inherit; font-size: inherit;}
 
 body{background: #fcf8f1;}
 

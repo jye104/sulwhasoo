@@ -18,6 +18,7 @@
     <script>
         $(document).ready(function () {
             $('#fullpage').fullpage({
+                licenseKey: 'YOUR_KEY_HERE',
                 //필요한 옵션 추가하기                
                 navigation: true, //네비게이션 : 기본값은 false(보여지지 않음)
                 navigationPosition: 'left', //(기본값 none) left나 right로 설정될 수 있습니다.
@@ -26,7 +27,7 @@
                 ], //(기본값[]) 이동 원을 쓰시는 경우 보여질 말풍선 위젯을 정의합니다.
                 //scrollBar: true,
 
-                autoScrolling:false,
+                autoScrolling: false,
                 afterRender: function () { //스크립트를 해석해서 문서(document)가 준비되면
                     $('.fp-tooltip').attr('aria-hidden', true);
                 }
@@ -60,6 +61,7 @@
             });
         });
     </script>
+    <script src="../js/fadeIn.js"></script>
 
 </head>
 
@@ -94,13 +96,12 @@
         </div>
     </header>
 
-
     <div id="fullpage">
         <section class="section" id="story">
-            <div class="story_wrap">
-                <h3 class="underline">Brand Story</h3>
-                <p>TO THE AGELESS BEAUTY BEYOND TIME</p>
-                <p>여성의 아름다움은 계속 진화합니다. 과거의 한 순간에 머무르지 않습니다.<br>
+            <div class="story_wrap fade">
+                <h3 class="underline fade_up">Brand Story</h3>
+                <p class="fade_up delay-2">TO THE AGELESS BEAUTY BEYOND TIME</p>
+                <p class="fade_up delay-4">여성의 아름다움은 계속 진화합니다. 과거의 한 순간에 머무르지 않습니다.<br>
                     설화수는 이 믿음으로 본연의 아름다움을 찾아 나섰습니다.<br>
                     시간이 흘러도 건강하게 빛나는 아름다움을 탐구했습니다.<br>
                     설화수와 함께 삶의 모든 순간에서 본연의 아름다움을 누릴 수 있습니다.</p>
@@ -108,10 +109,10 @@
         </section>
         <section class="section fp-auto-height" id="history">
             <article id="historyAtc1">
-                <div class="tit_wrap">
-                    <h3 class="underline">The story of Korea Ginseng</h3>
-                    <h4>Heritage Since 1966</h4>
-                    <p>고려 인삼에 대한 과학적 접근은<br>
+                <div class="tit_wrap fade">
+                    <h3 class="underline fade_up">The story of Korea Ginseng</h3>
+                    <h4 class="fade_up">Heritage Since 1966</h4>
+                    <p class="fade_up delay-2">고려 인삼에 대한 과학적 접근은<br>
                         설화수의 자랑스러운 전통입니다.<br>
                         설화수의 명성 뒤에 설화수의 품질이,<br>
                         설화수의 품질 뒤에 설화수의 기술이,<br>
@@ -120,14 +121,14 @@
                 </div>
             </article>
 
-            <article id="historyAtc2" class="d_f">
-                <strong>설화수의 역사는 그 자체로<br>한국 화장품의 한 역사입니다.</strong>
-                <img src="../images/brand/section2_searcher.png" alt="설화수 연구원">
+            <article id="historyAtc2" class="d_f fade">
+                <strong class="fade_right delay-4">설화수의 역사는 그 자체로<br>한국 화장품의 한 역사입니다.</strong>
+                <img src="../images/brand/section2_searcher.png" alt="설화수 연구원" class="fade_right delay-4">
             </article>
-            <div class="img_wrap d_f">
-                <article id="historyAtc3">
-                    <img src="../images/brand/section2_ginseng1.jpg" alt="설화수 연구소 사진">
-                    <div class="txt_wrap">
+            <div class="history_wrap clearfix">
+                <article id="historyAtc3" class="f_l fade">
+                    <img src="../images/brand/section2_ginseng1.jpg" alt="설화수 연구소 사진"  class="fade_up" >
+                    <div class="txt_wrap fade_up">
                         <p class="underline">Story1</p>
                         <h5>황제가 쓴 성분</h5>
                         <p>1711년 프랑스 예수회의 자르투<br>
@@ -138,9 +139,9 @@
 
                     </div>
                 </article>
-                <article id="historyAtc4" class="d_f">
-                    <img src="../images/brand/section2_lab2.jpg" alt="고려 인삼">
-                    <div class="txt_wrap">
+                <article id="historyAtc4" class="f_l d_f fade">
+                    <img src="../images/brand/section2_lab2.jpg" alt="고려 인삼" class="fade_left">
+                    <div class="txt_wrap fade_left delay-3">
                         <p class="underline">Story2</p>
                         <h5>ABC 인삼 크림</h5>
                         <p>설화수는 50여 년에 걸친 도전과 혁신의<br> 산물입니다. 그 시작은 1966년으로,<br> 최초의 인삼 화장품&apos;ABC 인삼 크림&apos;이<br>
@@ -154,9 +155,9 @@
 
         </section>
         <section class="section p_r" id="ingredient">
-            <div class="tit_wrap">
-                <h3 class="underline">ingredient</h3>
-                <h4>설화수에 활용된 주재료</h4>
+            <div class="tit_wrap fade">
+                <h3 class="underline fade_up">ingredient</h3>
+                <h4 class="fade_up delay-2">설화수에 활용된 주재료</h4>
             </div>
             <div class="controller p_r">
                 <!-- 이전과 다음버튼 -->
@@ -223,34 +224,34 @@
             </div>
 
         </section>
-        <section class="section" id="wisdom">
-            <div class="tit_wrap">
-                <h3 class="underline">Infinite Wisdom</h3>
-                <h4>한방 과학 연구로 부터 나오는<br>
+        <section class="section clearfix" id="wisdom">
+            <div class="tit_wrap fade">
+                <h3 class="underline fade_up">Infinite Wisdom</h3>
+                <h4 class="fade_up delay-2">한방 과학 연구로 부터 나오는<br>
                     고급 기능성 화장품</h4>
             </div>
-            <div id="wisdomAtc1" class="wisdomAtc">
-                <img src="../images/brand/section4_lab.jpg" alt="설화수 연구소">
-                <div>
+            <div id="wisdomAtc1" class="wisdomAtc fade">
+                <img src="../images/brand/section4_lab.jpg" alt="설화수 연구소" class="fade_up">
+                <div class="fade_up">
                     <h5>무수한 접목으로 피어난 지혜</h5>
                     <p>설화수 한방 과학 연구 센터는 <br>
                         세계 어디서도 볼 수 없는<br> 뷰티 융합 연구를 진행합니다. <br>
                         과거와 현재를, 전통과 과학을, <br>한방 소재와 화장품을 접목합니다.</p>
                 </div>
             </div>
-            <div id="wisdomAtc2" class="wisdomAtc">
-                <img src="../images/brand/section4_gingseng.jpg" alt="고려 인삼">
-                <div>
+            <div id="wisdomAtc2" class="wisdomAtc f_r fade">
+                <div class="fade_right">
                     <h5>고려 인삼 심화 연구</h5>
                     <p>고려 인삼은 세계의 인삼 중에서도 <br>
                         압도적인 영양 성분을 인정받은 우수 작물입니다. <br>
                         연구 센터의 인삼 전문 연구원은 <br>
                         &apos;시험포&apos;에서 고려 인삼을 집중 연구합니다.</p>
                 </div>
+                <img src="../images/brand/section4_gingseng.jpg" alt="고려 인삼"  class="fade_right">
             </div>
-            <div id="wisdomAtc3" class="wisdomAtc">
-                <img src="../images/brand/section4_face.jpg" alt="">
-                <div>
+            <div id="wisdomAtc3" class="wisdomAtc fade">
+                <img src="../images/brand/section4_face.jpg" alt="" class="fade_left">
+                <div  class="fade_left">
                     <h5>최신 안티에이징 연구</h5>
                     <p>과학적으로 검증된 안티에이징 자료를 축적해 왔습니다. <br>
                         이 자료를 바탕으로 다양한 안티에이징 연구를 진행, <br>
